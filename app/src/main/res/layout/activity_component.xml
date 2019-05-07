@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ComponentActivity">
+        tools:context=".activity.ComponentActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
             android:text="An activity is the entry point for interacting with the user.\n It represents a single screen with a user interface.\n Although the activities work together to form a cohesive user experience in the app, each one is independent of the others."

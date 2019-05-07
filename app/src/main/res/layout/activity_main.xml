@@ -4,12 +4,31 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Activity"/>
+            android:text="Activities"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBroadcastReceivers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Broadcast receivers"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnContentProviders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content providers"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
