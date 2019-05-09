@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.flores.appcomponentsandroid.activity.ComponentActivity
+import com.flores.appcomponentsandroid.contentProvider.ContentProviderActivity
 import com.flores.appcomponentsandroid.service.ServicesActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -19,6 +20,10 @@ class MainActivity : AppCompatActivity() {
 
         btnService.setOnClickListener {
             startActivity(Intent(this, ServicesActivity::class.java))
+        }
+
+        btnContentProviders.setOnClickListener {
+            startActivity(Intent(this,ContentProviderActivity::class.java))
         }
 
     }
